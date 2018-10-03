@@ -1,0 +1,111 @@
+<!doctype html>
+<!-- !doctype angir type dokument vi ønsker å lage -->
+<html>
+<head>
+<!-- Det vi skriver under <head> vil ikke bli synlig på den ferdig nettsiden -->
+  <meta charset="UTF-8">
+  <!-- UTF-8 gjør at vi kan bruke æ, ø og å --> 
+  <style>
+body {
+background-color: #ccff99 
+</style>
+<!-- Angir bakgrunnsfarge -->
+  <title>Hvordan Publisere en Nettside på GitHub</title>
+  
+</head>
+<body>
+<!-- Det som vi ønsker at skal være synlig skrives under <body> -->
+<div>
+  <h1>Sammendrag av kapittel 4</h1>
+    <img src="https://www.lokus.no/var/ezflow_site/storage/images/open/it_1/logobanner/330839-1-nor-NO/logobanner_aco_vgs_banner.jpg" alt="IT-boka logo">
+    <p><a href="https://brettboka.no/user/publications/979" alt=Link til læreboka.>Brettboka.com</a></p>
+    <h3>Her er en kort oversikt over viktige begreper og konsepter fra kapittel 4:</h3>
+    <ul>
+      <li>Flere datamaskiner koblet sammen utgjør et enkelt <em>nettverk</em></li><br>
+      <li><em>Internett</em> er et nettverk av nettverk. All informasjon som senes over Internett sendes fra én datamaskin til en annen.</li><br>
+      <li>En <em><a href="https://no.wikipedia.org/wiki/Klient_(IKT)" alt=Link til informasjon om klient.>klient</a></em> (eng. client) er en datamaskin som ber om tilgang til informasjon som ligger på en <em>tjener</em> (eng. server). En tjener 
+          er også en datamaskin.</li><br>
+      <li>Informasjon som sendes fra en tjener til en klient, deles opp i mindre pakker som sendes hver for seg. <br> For at klienten skal klare å sette sammen disse pakkene på riktig måte, er det viktig at tjeneren følger <em>protokoller</em>, 
+          det vil si standarder for sending av informasjon.</li><br>
+	  <li><em>Internettprotokollen</em> (<strong>IP</strong>)er ansvarlig for kommunikasjon mellom datamaskiner, og gir alle maskiner en unik IP-adresse.</li><br>
+      <li>En IP-adresse har ofte også et tilhørende domenenavn. Et domenenavn som <a href=”https://www.aschehoug.no/” alt=eksempellink til aschehougs hjemmeside>www.aschehoug.no</a> gjør det lettere å finne fram en nettside.</li><br>
+	  <li>Din lokale datamaskin har IP-adressen 127.0.0.1 og domenenavnet <em>local host</em></li><br>
+      <li><em>Transmission Control Protocol</em> (<a href="https://no.wikipedia.org/wiki/TCP/IP" alt=link til informasjon om>TCP</a>) er ansvarlig for sending av informasjon (pakker) mellom maskiner</li><br>
+      <li><em>Hypertext Transfer Protocol</em> (HTTP) sørger for at nettlesere (hos klienter) kan kommunisere med tjenere</li>
+    </ul>
+</div>
+<div>
+  <div>
+  <h3>Her er noen eksempler på bruk av taggene vi har lært i kapittel 6</h3>
+    <h4> Eksempel på bruk av organisert liste:</h4>
+      <p>Hvordan fylle på en vannflaske: 
+      <ol>  
+        <li>Finn frem en tom vannflaske.</li><br>
+        <li>Skru av korken til flasken.</li><br>
+        <li>Skru på springen og før flasken under vannstrålen.</li><br>
+        <li>Vent til vannnivået i flasken har nådd toppen og før flasken bort fra vannstrålen.</li><br>
+        <li>Skru av vannet i springen og vri lokket tilbake på vannflasken.</li><br>
+        <li>Gratulerer! Du har nå fylt opp din flotte vannflaske med ferskt og forfriskende vann!</li><br>
+      </ol>
+  <h3>Eksempel på bruk av tabell</h3>
+    <h4>Liste over historiens tyngste personer:</h4>
+    <table>
+      <tr>
+        <th>Navn</th>
+        <th>Land</th>
+        <th>Toppvekt (kg)</th>
+      </tr>
+      <tr>
+        <td>Jon Brower Minnoch</td>
+        <td>USA</td>
+        <td>635</td>
+      </tr>
+      <tr>
+        <td>Khalid bin Mohsen Shaari</td>
+        <td>Saudi Arabia</td>
+        <td>610</td>
+      </tr>
+      <tr>
+        <td>Manuel Uribe</td>
+        <td>Mexico</td>
+        <td>597 kg</td>
+      </tr>
+	</table>
+</div>
+<div>
+  <h2> Eksempel på bruk av video og audio i HTML</h2>
+    <h4>Eksempel på video i HTML:</h4>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GR3HSCfpCCA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<h4> Eksempel på audio i HTML:<h4>
+      <audio controls>
+        <source src="https://raw.githubusercontent.com/BirkBoris/Kapittelsammendrag/gh-pages/Audio/Curb%20Your%20Enthusiasm%20Theme.mp3"> 
+        Din nettleser støtter ikke audio-elementet.
+      </audio>
+</div>
+<div>
+<div>
+  <form method="GET">
+    Ditt navn
+    <input type="text" name="dittnavn">
+    
+    Hvilken topping liker du å ha på pizzaen?
+    <input type="text" name="favorittopping">
+
+    <input type="submit" name="sendinn" value="Send inn">
+  </form>
+</div>
+<div>
+</div>
+<div>
+  <h2>Min filstruktur</h2>
+  <img src="https://raw.githubusercontent.com/BirkBoris/Kapittelsammendrag/gh-pages/Bilder/Filstruktur.PNG" alt="Oversikt over filstruktur">
+  <ul>
+    <li>Dette er en oversikt over hvordan jeg har strukturert filene på GitHub.</li> <br>
+    <li>Den røde rignen viser hvor jeg oppbevarer lydfilene jeg bruker på nettsiden.</li> <br>
+    <li>Den blåe ringen viser hvor jeg oppvebarer bildefilene jeg bruker på nettsiden.</li><br>
+    <li>Den grønne ringen viser lokasjonen til hovedkoden (index-filen) til nettsiden.</li><br>
+</div>
+</body>
+<!-- </body> brukes når vi vil avslutte den synlige delen av nettsiden  -->
+</html>
+<!-- </html> signaliserer slutten på nettsiden vår -->
